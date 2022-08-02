@@ -63,12 +63,12 @@ span {
 }
 
 .sign-up {
+  font-weight: bold;
   color: #e5e7eb;
   background-color: #3882f6;
   padding: 5px 30px;
   border-radius: 8px;
   border: none;
-  font-weight: bold;
 }
 
 /*********** Second div  ****************/
@@ -103,6 +103,7 @@ span {
   display: flex;
 }
 
+/* quote-div makes things simpler for centering the content and aligning the credit on right side */
 .quote-div {
   width: 50%;
 }
@@ -123,3 +124,43 @@ span {
 }
 
 /************************************** fourth div ********************************/
+
+.fourth {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  margin: 100px 200px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  gap: 300px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  padding: 5px 30px;
+  border-radius: 8px;
+  border: 3px;
+  border-color: white;
+  border-style: solid;
+}
+
+.fourth p {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.fourth h2 {
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+
+/*************************** footer *********************/
