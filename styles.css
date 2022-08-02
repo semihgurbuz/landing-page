@@ -93,3 +93,33 @@ span {
 .fish-img {
   width: 200px;
 }
+
+/**************** Third div *********************/
+
+.third {
+  background-color: #e5e7eb;
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.quote-div {
+  width: 50%;
+}
+
+.quote {
+  margin: 40px auto 10px auto;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.credit {
+  text-align: right;
+  font-weight: 900;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+/************************************** fourth div ********************************/
