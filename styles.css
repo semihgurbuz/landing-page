@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
-
+/***************** First Div ***************/
 header {
   background-color: #1f2937;
   padding: 10px auto 50px;
@@ -22,6 +22,7 @@ nav {
   padding-top: 20px;
 }
 
+/* margin-right auto allows the first nav element to stick to the left side */
 span {
   font-size: 24px;
   color: #f9faf8;
@@ -68,4 +69,27 @@ span {
   border-radius: 8px;
   border: none;
   font-weight: bold;
+}
+
+/*********** Second div  ****************/
+.second {
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.info-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.fish,
+.fish-img {
+  width: 200px;
 }
